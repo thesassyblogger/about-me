@@ -1,0 +1,134 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.name {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+/* Task 2: Navigation Bar */
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.nav-bar li a:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* About Me Section */
+
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+/* Skills Section */
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Projects Section */
+
+.project {
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Recommendations Section */
+
+#recommendation-form input {
+    width: 80%;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+#recommendation-form textarea {
+    width: 80%;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+#recommendation-form button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 7px 100px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+#recommendation-form button:hover {
+    background-color: #333;
+}
+
+
+/* Home Icon */
+
+.home-icon {
+    display: block;
+    margin: 20px auto;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.home-icon:hover {
+    color: grey;
+}
